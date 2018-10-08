@@ -111,7 +111,7 @@ export class AdalService {
         }
 
         // Remove hash from url
-        if (window.location.hash) {
+        if (this.isInCallbackRedirectMode && window.location.hash || !this.user.authenticated) {
             if (window.history.replaceState) {
                 window.history.replaceState('', '/', window.location.pathname)
             } else {
