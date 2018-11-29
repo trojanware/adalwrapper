@@ -42,6 +42,6 @@
     "zone.js": "~0.8.26"
   },
   "dependencies": {
-    "adal-angular": "https://github.com/rahulraibit/adal-1.0.5.git#master"
+    "adal-angular": "https://github.com/trojanware/adal-1.0.5#url-fix"
   }
 }
